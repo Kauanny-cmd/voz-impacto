@@ -419,12 +419,6 @@
       .section-title {
         font-size: 2rem;
       }
-      #sobre img{
-        display: none;
-      }
-      .btn-ghost{
-        display: none;
-      }
     }
 
     @media (max-width:480px){
@@ -440,5 +434,11 @@
       .cta-band{
         flex-direction:column;
         align-items:flex-start
+      }
+      #sobre img{
+        display: none;
+      }
+      .btn-ghost{
+        display: none;
       }
     }
